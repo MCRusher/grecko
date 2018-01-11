@@ -1,0 +1,15 @@
+PROGRAM1:
+Hello world just prints hello world.
+
+.create
+text =1
+
+.set
+text1.1 is 'Hello World!'
+
+.code
+go
+
+show text1.1
+
+no.

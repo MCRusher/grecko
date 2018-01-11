@@ -1,0 +1,80 @@
+This is a block comment.
+.this is a line comment
+
+
+PROGRAM1:
+This program will declare an integer, set it, and print it.
+
+.var initialization
+inum =1
+
+.var declaration
+inum1.1 is 1
+
+.code
+go
+
+show inum1.1
+
+no.
+
+PROGRAM2: 
+This program will clear memory, assign a number to memory, print it,
+clear clear memory, and repeat the process with a string.
+
+.mem sanitize
+mem-
+
+.initial mem set
+mem+ 3.14159
+
+.code
+go
+
+show mem
+mem-
+mem+ banana
+show mem
+mem-
+
+no.
+
+PROGRAM3:
+This program will declare a string, set it, and print it.
+
+.var initialization
+text =1
+
+.variable declaration
+text1.1 is 'The quick brown fox jumped over the brown log.'
+
+.code
+go
+
+show text1.1
+
+no.
+
+PROGRAM4:
+This program will create an int, send a hex number to mem for conversion, set the variable to mem, and print hex and.
+
+.initialization
+inum =1
+mem-
+
+.mem set
+mem+ 0x4a
+
+.declare
+inum1.1 is mem
+
+.code
+go
+
+show mem
+show inum1.1 - - - mem
+. the '-' character inserts a space
+no
+
+.'no' vs 'no.' | 'no.' clears variables after code completes, 'no' does not. In this case, it was left out as an example.
+. if you were to convert every 'no.' to 'no' and comment out P4's init and declare, the last show would print '1' as the value of inum1.1
