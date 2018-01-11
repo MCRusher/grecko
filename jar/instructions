@@ -1,0 +1,5 @@
+The easiest way to use the grecko.jar is to store it in a folder alongside its .gk source files.
+Then, execute it in a console.
+It will prompt for source file name.
+Enter the name of the source you wish to run without the file extension.
+It should now output the results.
