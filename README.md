@@ -1,2 +1,16 @@
 # grecko
 new programming language based in java
+
+The easiest way to use the grecko.jar is to store it in a folder alongside its .gk source files.
+Then, execute it in a console.
+
+In windows 7, shift+rmb gives the 'open command window here' option.
+then, type 'java -jar grecko.jar' to execute the file.
+
+It will prompt for source file name.
+Enter the source you wish to run without the file extension.
+
+if the source file is not in the same folder as grecko.jar, you will need to specify the full path of the file (still without extension),
+otherwise just enter the name.
+
+It should now output the results.
